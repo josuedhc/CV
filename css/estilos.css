@@ -20,6 +20,15 @@ profile img{
 } */
 
 
+
+/* layaout */
+.main-container {
+	display:flex;
+	width:1200px;
+	
+}
+
+
 ul{
 	list-style-type:none;
 }
@@ -30,6 +39,8 @@ article ul{
 /* parte del aside */
 aside{
 	background-color:#647087;
+	width: 30%;
+	margin-left: 3%;
 }
 
 aside * {
@@ -48,15 +59,39 @@ aside section h2:first-child {
 	border-radius: 50%;
 }
 
+main section > h2{
+	text-transform:uppercase;
+	letter-spacing: 5px;
+}
 .hero {
-	background-color: #F7DDC3;	
+	background-color: #EDC0AF;
+	box-shadow: 2px 2px 40px 1px #647087;	
 }
 
 .hero h2{
 	color: white;
 	border-top: 2px solid white;
-}
-.hero{
-	box-shadow: 3px 3px 40px 5px #647087;
+	text-transform: none;
+	letter-spacing: normal;
 }
 
+
+.sobremi{
+	background-color:#F7DDC3;
+}
+.sobremi h2{
+	background-color: white;
+}
+main article h3 {
+	font-weight: bold;
+}
+
+main article h4{
+	font-weight: bold;
+}
+main article ul {
+	list-style-type: square;
+}
+.referencia {
+	display: flex;
+}
