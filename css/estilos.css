@@ -1,0 +1,23 @@
+/* *{
+color : black;	
+}
+p{
+	color:red;
+	
+}
+.Titulo{
+	background-color:lightblue;
+}
+
+ul{
+	list-style-type:none;
+}
+article ul{
+	list-style-type:scuare;
+}
+profile img{
+	border-radius: 50%;
+} */
+aside{
+	background-color:#647087;
+}
