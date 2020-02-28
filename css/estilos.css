@@ -94,4 +94,9 @@ main article ul {
 }
 .referencia {
 	display: flex;
+	flex-wrap;
+	
+}
+.referencia article {
+	width: 50%;
 }
