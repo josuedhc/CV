@@ -22,15 +22,18 @@ profile img{
 
 
 /* layaout */
-.main-container {
+.main-container{
 	display:flex;
-	width:1200px;
+	width:800px;
+	justify-content: space-between;
 	
 }
 
 
 ul{
 	list-style-type:none;
+	text-align:left;
+	 padding: 3px;
 }
 article ul{
 	list-style-type:scuare;
@@ -39,7 +42,7 @@ article ul{
 /* parte del aside */
 aside{
 	background-color:#647087;
-	width: 30%;
+	width: 25%;
 	margin-left: 3%;
 }
 
@@ -57,6 +60,12 @@ aside section h2:first-child {
 
 #profile img{
 	border-radius: 50%;
+	display:block;
+	margin:auto;;
+/* 	width:150px;
+	height:auto; */
+	
+	
 }
 
 main section > h2{
@@ -108,7 +117,27 @@ main article ul {
 	width: 50%;
 	text-align:center;
 }
+.Redes img:hover{
+  transform: rotate(360deg);
+  transition:0.4s;
+}
+.Redes li {
+	 padding:10px;
+}
 
+meter{
+	display:block;
+	width:80%;
+	padding:1px;
+}
+meter::-webkit-meter-optimum-value{
+	background: none;
+	background-color:red;
+}
+meter::-moz-meter-optimum-value{
+	background: none;
+	background-color:red;
+}
 /* habilidades */
 
 /* dt{
