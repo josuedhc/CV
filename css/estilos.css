@@ -62,7 +62,8 @@ main section > h2{
 	box-shadow: 2px 2px 40px 1px #647087;
 	padding: 15% 0; */
 	text-align:center;
-	margin:auto; 
+	margin:auto;
+	height:5%;
 
 }
 
@@ -75,6 +76,7 @@ main section > h2{
 .hero h1{
 	/* text-transform: uppercase; */
 	letter-spacing: 8px;
+	margin: 14px 40px;
 }
 
 
@@ -84,8 +86,13 @@ main section > h2{
 
 .sobremi p{
 	line-height: 1.5em;
-	background-color:#F7DDC3;
+	background-color:#D3D3D3;
 	padding: 5px ;
+}
+
+.experiencia  article {
+	background-color:#D3D3D3;
+	margin-left:5px;
 }
 .experiencia ul{
 	margin-left:20px;
@@ -127,7 +134,7 @@ meter{
 }
 meter::-webkit-meter-optimum-value{
 	background: none;
-	background-color:#778899;
+	background-color:#808080;
 }
 meter::-moz-meter-optimum-value{
 	background: none;
