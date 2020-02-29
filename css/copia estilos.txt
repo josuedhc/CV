@@ -1,17 +1,39 @@
+/* *{
+color : black;	
+}
+p{
+	color:red;
+	
+}
+.Titulo{
+	background-color:lightblue;
+}
+
+ul{
+	list-style-type:none;
+}
+article ul{
+	list-style-type:scuare;
+}
+profile img{
+	border-radius: 50%;
+} */
+
+
 
 /* layaout */
 .main-container{
-	
+	float:left;
 	width:1200px;
-	height:0px;
-	 
+	height:200px;
+	background-color: red; 
 }
 .mitad{
 	
-	float:right;
+	float:left;
 	width:980px;
 	height:800px;
-	margin-bottom:800px;
+	background-color: black; 
 }
 
 
@@ -26,7 +48,7 @@ article ul{
 
 /* parte del aside */
 aside{
-	background-color:#A9A9A9;
+	background-color:#647087;
 	width: 25%;
 	margin-left: 3%;
 }
@@ -46,9 +68,9 @@ aside section h2:first-child {
 #profile img{
 	border-radius: 50%;
 	display:block;
-	margin:auto;
-	width:150px;
-	height:auto;
+	margin:auto;;
+/* 	width:150px;
+	height:auto; */
 	
 	
 }
@@ -58,19 +80,18 @@ main section > h2{
 	letter-spacing: 5px;
 }
 .hero {
-	background-color: #ADD8E6;
+	background-color: #EDC0AF;
 	box-shadow: 2px 2px 40px 1px #647087;
 	padding: 15% 0; */
 	text-align:center;
-	margin:auto; 
-
+	margin:auto;
 }
 
 .hero h2{
 	color: white;
 	border-top: 2px solid white;
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 11px;
 }
 .hero h1{
 	/* text-transform: uppercase; */
@@ -97,7 +118,6 @@ main article h3,main article h4{
 }
 main article ul {
 	list-style-type: square;
-	font-weight: bold;
 }
 .referencia {
 	display: flex;
@@ -127,11 +147,11 @@ meter{
 }
 meter::-webkit-meter-optimum-value{
 	background: none;
-	background-color:#778899;
+	background-color:red;
 }
 meter::-moz-meter-optimum-value{
 	background: none;
-	background-color:#778899;
+	background-color:red;
 }
 /* habilidades */
 
@@ -152,35 +172,27 @@ dd{
 dl{
 	display:flex;
 	flex-wrap:wrap;
-	margin-left:5px;
-	
-
 }
-dt{
-	flex-basis:35%;
-	margin: 0; 
-	line-height: 1.5em;
-	border-top: 1px solid white;
-}
-dd{
-	text-align:left;
-	flex-basis:64%;
-	margin: 0; 
+dt,dd{
+	flex-basis:40%;
+	margin: 0;
 	line-height: 1.5em;
 	border-top: 1px solid white;
 }
 dt{
 	font-weight: bolder;
-
 }
 
 
 dt:last-of-type,dd:last-of-type{
 	border-bottom: 1px solid white;
 }
-h1,h2, ul {
-	margin-left:5px;
-}
+
 .clear {
 	clear:both;
 }
+
+
+
+
+
