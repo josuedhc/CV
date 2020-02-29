@@ -23,10 +23,17 @@ profile img{
 
 /* layaout */
 .main-container{
-	display:flex;
-	width:800px;
-	justify-content: space-between;
 	
+	width:1200px;
+	height:200px;
+	 
+}
+.mitad{
+	
+	float:right;
+	width:980px;
+	height:800px;
+	margin-bottom:800px;
 }
 
 
@@ -75,8 +82,9 @@ main section > h2{
 .hero {
 	background-color: #EDC0AF;
 	box-shadow: 2px 2px 40px 1px #647087;
-	padding: 15% 0;
+	padding: 15% 0; */
 	text-align:center;
+	margin:auto;
 }
 
 .hero h2{
@@ -99,6 +107,10 @@ main section > h2{
 	line-height: 1.5em;
 	background-color:#F7DDC3;
 	padding: 5px ;
+}
+.experiencia ul{
+	margin-left:20px;
+	
 }
 
 main article h3,main article h4{
@@ -123,6 +135,9 @@ main article ul {
 }
 .Redes li {
 	 padding:10px;
+}
+.Redes{
+	margin:none;
 }
 
 meter{
