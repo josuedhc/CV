@@ -1,17 +1,21 @@
 
 /* layaout */
-.main-container{
+/* .main-container{
 	
-	width:1200px;
+	width:80%;
 	height:0px;
-	 
-}
+	max-width: 1000px;
+	box-sizing:border-box;
+} */
 .mitad{
+	width:70%;
+/* 	height:800px;
+	margin:0px 35px 0px 35px; */
+	max-width: 1000px; 
+	padding:15px;
+	box-sizing:border-box;
+	float: right;
 	
-	float:right;
-	width:980px;
-	height:800px;
-	margin-bottom:800px;
 }
 
 
@@ -27,8 +31,10 @@ article ul{
 /* parte del aside */
 aside{
 	background-color:#A9A9A9;
-	width: 25%;
-	margin-left: 3%;
+	width: 27%;
+	padding:15px;
+	box-sizing:border-box;
+	float:left;
 }
 
 aside * {
@@ -191,3 +197,21 @@ h1,h2, ul {
 .clear {
 	clear:both;
 }
+
+ @media (min-width: 600px) and (max-width:800px) {
+	 .mitad{
+		width:100%;
+		
+		
+	 }
+	 aside {
+		 width:100%;
+	 }
+	 .hero{
+		width:100%; 
+		height:22%;
+	 }
+	 
+	 
+ }
+	 
