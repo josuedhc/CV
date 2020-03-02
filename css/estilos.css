@@ -35,10 +35,15 @@ aside{
 	padding:15px;
 	box-sizing:border-box;
 	float:left;
+	height:auto;
 }
 
 aside * {
 	color:white;
+}
+aside p{
+	text-align:justify;
+
 }
 
 aside h2 {
@@ -86,15 +91,15 @@ main section > h2{
 }
 
 
-.sobremi h2{
-	background-color: white;
+.educacion h2{
+	border-bottom: 2px solid black;
+}
+.educacion ul {
+	background-color:#D3D3D3;
+	font-weight: bold;
+	
 }
 
-.sobremi p{
-	line-height: 1.5em;
-	background-color:#D3D3D3;
-	padding: 5px ;
-}
 
 .experiencia  article {
 	background-color:#D3D3D3;
@@ -103,6 +108,16 @@ main section > h2{
 .experiencia ul{
 	margin-left:20px;
 	
+}
+.experiencia h2{
+	border-bottom: 2px solid black;
+}
+.tecnologias ul{
+	background-color:#D3D3D3;
+	font-weight: bold;
+}
+.tecnologias h2 {
+	border-bottom: 2px solid black;
 }
 
 main article h3,main article h4{
@@ -128,12 +143,17 @@ meter{
 	display:block;
 	width:80%;
 	padding:1px;
+	box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1)
+
 }
 meter::-webkit-meter-optimum-value{
-	background: none;
+	background: blue;
 	background-color:#808080;
+	 
+
 }
-meter::-moz-meter-optimum-value{
+meter::-moz-progress-bar{
+		
 	background: none;
 	background-color:#778899;
 }
