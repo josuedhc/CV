@@ -68,7 +68,7 @@ main section > h2{
 	box-shadow: 2px 2px 40px 1px #647087;
 	padding: 15% 0; */
 	text-align:center;
-	margin:auto;
+	margin:none;
 	height:5%;
 
 }
@@ -198,14 +198,15 @@ h1,h2, ul {
 	clear:both;
 }
 
- @media (min-width: 600px) and (max-width:800px) {
+ @media screen and (max-width: 400px) {
 	 .mitad{
 		width:100%;
-		
+		height:auto;
 		
 	 }
 	 aside {
 		 width:100%;
+		 height:auto;
 	 }
 	 .hero{
 		width:100%; 
@@ -214,4 +215,4 @@ h1,h2, ul {
 	 
 	 
  }
-	 
+ 
