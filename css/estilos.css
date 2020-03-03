@@ -43,6 +43,7 @@ aside * {
 }
 aside p{
 	text-align:justify;
+	margin-left:3px;
 
 }
 
@@ -132,11 +133,12 @@ main article ul {
   transform: rotate(360deg);
   transition:0.4s;
 }
-.Redes li {
-	 padding:10px;
+.Redes p {
+	 text-align:justify;
+
 }
 .Redes{
-	margin:none;
+	margin-left:3px;
 }
 
 meter{
