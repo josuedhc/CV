@@ -58,11 +58,11 @@ aside section h2:first-child {
 }
 
 #profile img{
-	border-radius: 50%;
+	 border-radius: 60%; 
 	display:block;
 	margin:auto;
-	width:150px;
-	height:auto;
+	width:235px;
+	height:200px;
 	
 	
 }
