@@ -159,12 +159,22 @@ meter{
 
 }
 meter::-webkit-meter-optimum-value{
-	background: blue;
-	background-color:#808080;
+	background: #64B5F6;
+	/*background-color:#64B5F6;*/
+	
+	
 }
 meter::-moz-progress-bar{	
-	background: none;
-	background-color:#808080;
+	
+	background-color:#64B5F6;
+	
+}
+
+meter::-webkit-progress-value{
+	background: #64B5F6;
+	/*background-color:#808080;*/
+	
+	
 }
 /* habilidades */
 
